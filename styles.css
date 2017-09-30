@@ -1,0 +1,53 @@
+body {
+  padding-top: 5rem;
+
+  background: linear-gradient(rgb(128, 85, 0), rgb(230, 138, 0));
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+#headline {
+	font-size: 740%;
+	 
+	color: rgb(217, 217, 217);
+}
+
+#subHeadline {
+	padding-left: 3rem;
+	font-size: 200%;
+}
+#tryIt-box {
+
+}
+#tryIt {
+	padding-left: 20rem;
+	font-size: 250%;
+	color: black;
+	text-decoration: underline;
+}
+
+#benefit-setup {
+	padding-left: 3rem;
+}
+.benefit-title {
+	font-size: 150%;
+}
+
+#conclusion1 {
+	padding-left: 3rem;
+}
+#conclusion2 {
+	padding-left: 4rem;
+}
+#conclusion3 {
+	padding-left: 5rem;
+}
+
+#pricing {
+	text-decoration: underline;
+	padding-left: 6rem;
+	color: white
+
+}
