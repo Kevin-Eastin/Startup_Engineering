@@ -1,0 +1,36 @@
+#postTitle {
+  padding-left: 15px;
+  font-size: 30px;
+  text-align: center;
+  border-style: solid;
+  background-color:gold
+}
+
+#headline {
+  color: red;
+  text-align: center;
+  background-color:aliceblue
+}
+
+#headBody {
+  text-align: center;
+  background-color:aliceblue
+}
+#inputTitle {
+  text-align: center;
+  border-color: green;
+}
+
+#postBody {
+  padding-left: 15px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#inputBody {
+  text-align: center;
+}
+
+#submitButton {
+  text-align: center;
+}

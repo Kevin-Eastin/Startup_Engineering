@@ -1,14 +1,18 @@
 <html>
 	<head>
+
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+
 		<title><%= @title %></title>
 	</head>
 	<body>
-		<h1><%= @headline %></h1>
-		<p><%= @paragraph %></p>
+		<h1 id = "headline"><%= @headline %></h1>
+		<p id = "headbody"><%= @paragraph %></p>
 
 		<% @posts.each do |post| %>
-		    <h2><%= post.title %></h2>
-		    <p><%= post.body %></p>
+		    <h2 id = "postTitle"><%= post.title %></h2>
+		    <p id = "postBody"><%= post.body %></p>
 		<% end %>
 	</body>
 </html>

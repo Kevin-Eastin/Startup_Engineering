@@ -31,11 +31,9 @@ end
 
 post '/create' do
 	#replace this
-  @title = params['title'];
-  @body = params['body'];
   @pst = Post.new;
-  @pst.title = @title;
-  @pst.body = @body;
+  @pst.title = params['title'];
+  @pst.body = params['body'];
   @pst.save;
   erb :success
 end
